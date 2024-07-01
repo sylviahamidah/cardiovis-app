@@ -1,0 +1,10 @@
+Pillow
+cv2
+numpy
+skimage.metrics
+contrast_image
+tensorflow[and-cuda]
+matplotlib
+keras
+gdown
+os
