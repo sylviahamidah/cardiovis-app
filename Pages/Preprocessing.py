@@ -6,14 +6,7 @@ from skimage.metrics import structural_similarity as compare_ssim
 from contrast_image import quantitation
 quantitation = quantitation.Quantitation()
 
-# set page config
-st.set_page_config(
-    page_title="Image Preprocessing",
-    layout="wide", 
-    page_icon= ":one:"
-)
 st.title(":one: Image Preprocessing")
-st.markdown('####')
 # ------------------------------------------------------------------------------
 # upload file
 st.markdown('#### Upload File')
@@ -37,7 +30,7 @@ elif ex_image == "Cardiomegaly + pleural effusion":
     image = Image.open("cardiop4.png")
 
 
-st.markdown('##')
+st.markdown('######')
 # ------------------------------------------------------------------------------
 # function for intensity thresholding
 def calculate_window(image):
