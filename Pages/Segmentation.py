@@ -306,13 +306,7 @@ merge_files(weight_path3, input_path3)
 
 #-------------------------------------------------------------------------------------------------------------
 
-st.set_page_config(
-    page_title="Segmentation",
-    layout="wide", 
-    page_icon= ":two:"
-)
 st.title(":two: Image Segmentation")
-st.markdown('####')
 col1, col2 = st.columns([0.3, 0.7], gap='medium')
 
 with col1:
