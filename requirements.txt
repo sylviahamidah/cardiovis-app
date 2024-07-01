@@ -1,5 +1,5 @@
-Pillow
-cv2
+opencv-python
+pillow
 numpy
 skimage.metrics
 contrast_image
