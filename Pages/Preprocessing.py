@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-import opencv-python as cv2
+import opencv-python as cv
 import numpy as np
 from skimage.metrics import structural_similarity as compare_ssim
 from contrast_image import quantitation
