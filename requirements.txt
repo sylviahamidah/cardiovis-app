@@ -1,7 +1,7 @@
 opencv-python
 pillow
 numpy
-skimage
+scikit-image
 contrast_image
 tensorflow[and-cuda]
 matplotlib
