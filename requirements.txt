@@ -7,3 +7,4 @@ tensorflow[and-cuda]
 matplotlib
 keras
 gdown
+--upgrade pip
