@@ -290,9 +290,9 @@ def merge_files(output_path, input_paths):
 
 
 # Daftar file part yang akan digabungkan
-input_path1 = [f'model_split\heart_fix.weights.h5_part_{i}' for i in range(0, 5)]
-input_path2 = [f'model_split\left_fix.weights.h5_part_{i}' for i in range(0, 5)]
-input_path3 = [f'model_split\Right_fix.weights.h5_part_{i}' for i in range(0, 5)]
+input_path1 = [f'model_split\heart_fix.weights.h5_part_{i}' for i in range(0, 17)]
+input_path2 = [f'model_split\left_fix.weights.h5_part_{i}' for i in range(0, 17)]
+input_path3 = [f'model_split\Right_fix.weights.h5_part_{i}' for i in range(0, 17)]
 
 # Nama file hasil penggabungan
 weight_path1 = 'model_heart.weights.h5'
