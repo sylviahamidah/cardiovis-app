@@ -11,4 +11,4 @@ pg = st.navigation([
     st.Page("Pages/Segmentation.py", title="Segmentation", icon="2️⃣"),
     st.Page("Pages/CTR Calculation.py", title="CTR Calculation", icon="3️⃣")
 ])
-pg.run()
+#pg.run()
