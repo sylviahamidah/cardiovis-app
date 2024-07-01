@@ -1,9 +1,9 @@
-opencv-python==4.9.0.80
 pillow
 numpy
-scikit-image
 contrast_image
 tensorflow==2.16.1
 matplotlib
 keras
 gdown
+opencv-python-headless==4.6.0.66
+scikit-image==0.19.3
