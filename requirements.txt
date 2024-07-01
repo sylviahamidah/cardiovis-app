@@ -3,7 +3,7 @@ pillow
 numpy
 scikit-image
 contrast_image
-tensorflow
+tensorflow==2.16.1
 matplotlib
 keras
 gdown
