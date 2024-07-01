@@ -2,14 +2,8 @@ import streamlit as st
 import cv2
 import numpy as np
 
-st.set_page_config(
-    page_title="CTR Calculation",
-    layout="wide", 
-    page_icon= ":three:"
-)
 
 st.title(":three: Cardiothoracic Ratio (CTR) Calculation")
-st.markdown("####")
 
 
 def ctr_line(heart, lung):
